@@ -133,7 +133,7 @@ Converts a Node-API value to a single-precision complex floating-point number.
 
 ```c
 #include "stdlib/napi/argv_complex64.h"
-#include "stdlib/complex/float32.h"
+#include "stdlib/complex/float32/ctor.h"
 #include <node_api.h>
 
 static napi_value addon( napi_env env, napi_callback_info info ) {
@@ -175,7 +175,7 @@ Macro for converting an add-on callback argument to a single-precision complex f
 ```c
 #include "stdlib/napi/argv_complex64.h"
 #include "stdlib/napi/argv.h"
-#include "stdlib/complex/float32.h"
+#include "stdlib/complex/float32/ctor.h"
 #include <node_api.h>
 
 static stdlib_complex64_t fcn( const stdlib_complex64_t v ) {
@@ -283,8 +283,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/napi-argv-complex64.svg
 [npm-url]: https://npmjs.org/package/@stdlib/napi-argv-complex64
 
-[test-image]: https://github.com/stdlib-js/napi-argv-complex64/actions/workflows/test.yml/badge.svg?branch=v0.0.1
-[test-url]: https://github.com/stdlib-js/napi-argv-complex64/actions/workflows/test.yml?query=branch:v0.0.1
+[test-image]: https://github.com/stdlib-js/napi-argv-complex64/actions/workflows/test.yml/badge.svg?branch=v0.0.2
+[test-url]: https://github.com/stdlib-js/napi-argv-complex64/actions/workflows/test.yml?query=branch:v0.0.2
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/napi-argv-complex64/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/napi-argv-complex64?branch=main

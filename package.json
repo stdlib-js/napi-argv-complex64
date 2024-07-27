@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/napi-argv-complex64",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Convert a Node-API value to a single-precision complex floating-point number.",
   "license": "Apache-2.0",
   "author": {
@@ -39,19 +39,19 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-napi-has-property": "github:stdlib-js/assert-napi-has-property#main",
-    "@stdlib/assert-napi-is-type": "^0.2.1",
-    "@stdlib/assert-napi-status-ok": "^0.2.1",
-    "@stdlib/complex-float32": "^0.2.1",
-    "@stdlib/complex-imagf": "^0.2.1",
-    "@stdlib/complex-realf": "^0.2.1",
-    "@stdlib/napi-argv": "^0.2.1",
-    "@stdlib/utils-library-manifest": "^0.2.1"
+    "@stdlib/assert-napi-has-property": "^0.0.2",
+    "@stdlib/assert-napi-is-type": "^0.2.2",
+    "@stdlib/assert-napi-status-ok": "^0.2.2",
+    "@stdlib/complex-float32-ctor": "^0.0.2",
+    "@stdlib/complex-float32-imag": "^0.1.0",
+    "@stdlib/complex-float32-real": "^0.1.1",
+    "@stdlib/napi-argv": "^0.2.2",
+    "@stdlib/utils-library-manifest": "^0.2.2"
   },
   "devDependencies": {
-    "@stdlib/assert-is-browser": "^0.2.1",
-    "@stdlib/complex-float64": "^0.2.1",
-    "@stdlib/utils-try-require": "^0.2.1",
+    "@stdlib/assert-is-browser": "^0.2.2",
+    "@stdlib/complex-float64-ctor": "^0.0.2",
+    "@stdlib/utils-try-require": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
