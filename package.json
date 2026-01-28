@@ -46,7 +46,7 @@
     "@stdlib/complex-float32-imag": "^0.1.1",
     "@stdlib/complex-float32-real": "^0.1.1",
     "@stdlib/napi-argv": "^0.2.2",
-    "@stdlib/utils-library-manifest": "^0.2.2"
+    "@stdlib/utils-library-manifest": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/assert-is-browser": "^0.2.2",
@@ -84,11 +84,6 @@
     "cmplx",
     "complex64"
   ],
-  "__stdlib__": {
-    "envs": {
-      "browser": false
-    }
-  },
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
